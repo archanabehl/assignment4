@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Weather App</title>
+
+    <meta charset="utf-8" />
+    <meta name="author" content="The Weather Channel" />
+    <meta
+      name="description"
+      content="Convert Celsius to Fahrenheit or vice-versa."
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:400,400i,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  </head>
+
+  <body>
+    <div class="app">
+      <main class="cover-screen bg-image beach-bg flex-center">
+        <section class="white-bg smooth-corners px-2rem py-2rem">
+          <div class="flex-row justify-content-center  mb-2rem">
+            <button
+              id="fahrenheit-to-celsius"
+              type="button"
+              class="btn btn-primary"
+            >
+              F to C
+            </button>
+            <button
+              id="celsius-to-fahrenheit"
+              type="button"
+              class="btn btn-secondary"
+            >
+              C to F
+            </button>
+          </div>
+          <div class="flex-row">
+            <div class="form-group mr-1rem">
+              <input
+                type="text"
+                class="form-control"
+                id="initial-temperature"
+                placeholder="Fahrenheit"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control"
+                id="converted-temperature"
+                placeholder="Celsius"
+              />
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script type="text/javascript" src="js/numbers-and-strings.js"></script>
+    <script type="text/javascript" src="js/buttons.js"></script>
+    <script type="text/javascript" src="js/text-fields.js"></script>
+    <script type="text/javascript" src="js/background-image.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>

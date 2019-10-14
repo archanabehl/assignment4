@@ -1,0 +1,90 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+}
+
+.cover-screen {
+    height: 100vh;
+    width: 100vw;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-image {
+    background-position: center;
+    background-size: cover;
+    transition: background-image 0.3s ease-in-out;
+}
+
+.beach-bg {
+    background-image: url('../images/beach.jpg');
+}
+
+.fog-bg {
+    background-image: url('../images/fog.jpg');
+}
+
+.snow-bg {
+    background-image: url('../images/snow.jpg');
+}
+
+.sun-bg {
+    background-image: url('../images/sun.jpg');
+}
+
+.rain-bg {
+    background-image: url('../images/rain.jpg');
+}
+
+.white-bg {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.smooth-corners {
+    border-radius: 1rem;
+}
+
+.px-2rem {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.py-2rem {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.justify-content-center {
+    justify-content: center;;
+}
+
+.justify-content-space-around {
+    justify-content: space-around;
+}
+
+.mr-1rem {
+    margin-right: 1rem;
+}
+
+.mb-2rem {
+    margin-bottom: 2rem;
+}
+
+.btn:first-of-type {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.btn:last-of-type {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
